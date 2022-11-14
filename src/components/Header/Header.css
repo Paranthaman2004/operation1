@@ -1,0 +1,56 @@
+.Header{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 100px;
+}
+span{
+    color: orangered;
+}
+.Header__left{
+    display: flex;
+    align-items: center;
+}
+.Header__right{
+    display: flex;
+    align-items: center;
+}
+.Header__right ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-right: 50px;
+}
+.Header__right ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Header__right ul a li{
+    padding: 5px 10px 2px 10px;
+    border-bottom: 2px solid transparent;
+    margin-left: 20px;
+    transition: 0.5s ease-in-out;
+}
+.Header__right ul a li:hover{
+    border-bottom: 2px solid white;
+    color: orangered;
+    transition: 0.5s ease-in-out;
+}
+.Header__right button{
+    margin-right: 40px;
+    padding: 7px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 550;
+    border: 2px solid orangered;
+    border-radius: 15px;
+    cursor: pointer;
+}
